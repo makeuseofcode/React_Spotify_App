@@ -1,7 +1,7 @@
 
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Searcher  from './components/Searcherr';
+import Searcher  from './components/Searcher';
 
 
 
