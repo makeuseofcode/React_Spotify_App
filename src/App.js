@@ -1,19 +1,19 @@
 
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Searcher  from './component/Searcher';
+import Searcher  from './components/Searcherr';
 
 
 
 function App() {
 
 
+
+
 const CLIENT_ID=process.env.REACT_APP_SPOTIFY_CLIENT_ID
-const REDIRECT_URI=process.env.REACT_APP_SPOTIFY_REDIRECT_URI 
-const AUTH_ENDPOINT=process.env.REACT_APP_SPOTIFY_AUTH_ENDPOINT 
-const RESPONSE_TYPE=process.env.REACT_APP_SPOTIFY_RESPONSE_TYPE
-
-
+const REDIRECT_URI =process.env.REACT_APP_SPOTIFY_REDIRECT_URI 
+const AUTH_ENDPOINT =process.env.REACT_APP_SPOTIFY_AUTH_ENDPOINT 
+const RESPONSE_TYPE = process.env.REACT_APP_SPOTIFY_RESPONSE_TYPE
   const [token, setToken] = useState("");
 
   useEffect(() => {
